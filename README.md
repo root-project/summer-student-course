@@ -8,25 +8,32 @@ Python.
 ## Slides of the Course
 You can find the slides of the course [here](https://docs.google.com/presentation/d/1XUpgJ1IRNO-nIF7M9TErrMcyisLqhhZLB0L-M0AkwUo/edit?usp=sharing).
 
-## Preparation for the Course
+## Using ROOT
 
-Participants of the ROOT Summer Student course need to perform the following preparation actions **prior to the course**.
+Participants of the ROOT Summer Student course at CERN may use a ROOT installation available via lxplus or SWAN. See following paragraphs for instructions. Every participant should have a working ROOT installation **prior to the course**.
 
-### Install ROOT
+### ROOT on SWAN
 
-Please note that all participants must bring their own laptop to the workshop and, if possible, install ROOT beforehand: no time will be dedicated to the installation of ROOT.
+[![SWAN](https://swan.web.cern.ch/sites/swan.web.cern.ch/files/pictures/open_in_swan.svg)](https://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/root-project/summer-student-course.git)
 
-[ROOT version 6.24/06](https://root.cern.ch/content/release-62406) or newer will be used during the exercises. Participants might still be able to run the exercises with older ROOT versions, but upgrading is recommended. The Windows release is in beta mode and therefore is not adequate to follow this course.
-
-#### If installing ROOT is not possible
-
-If you don't manage to install ROOT on your machine, you can use the version available on the `lxplus` cluster. In this case, please make sure you can establish a graphics ssh connection to `lxplus.cern.ch` using your CERN account (`ssh -XY youruser@lxplus.cern.ch`).
-
-### Make sure you can log in to SWAN
-
-SWAN (Service for Web-based ANalysis) is a CERN service that allows interactive edition and execution of ROOT programs from a web browser.
+[SWAN](https://swan.cern.ch) (Service for Web-based ANalysis) is a CERN service offering a web-based platform for interactive computations and workflows. Its software stack is based on LCG releases too, so it also includes ROOT.
 
 In order to be able to connect and use the SWAN service during the course, participants need to make sure that:
 * They have a CERN account that is associated to a computing group. They can check if they belong to a computing group at https://account.cern.ch/account/CERNAccount/AccountStatus.aspx. If a participant does not belong to any computing group, she can subscribe to the default computing group following these instructions: https://resources.web.cern.ch/resources/Help/?kbid=067030
 * They have created a CERNBox account. In order to create it, they just need to connect and authenticate with their CERN username and password at https://cernbox.cern.ch
 * They can log in to SWAN with their CERN username and password: https://swan.cern.ch
+
+### ROOT on lxplus
+
+ROOT is available on any lxplus instance at CERN. Please make sure you can establish a graphics ssh connection to `lxplus.cern.ch` using your CERN account (`ssh -XY youruser@lxplus.cern.ch`).
+
+Different ROOT versions may be sourced via [LCG releases](https://lcgdocs.web.cern.ch/lcgdocs/lcgreleases/introduction/#setup), for example:
+
+```
+source /cvmfs/sft.cern.ch/lcg/views/LCG_101/x86_64-centos7-gcc11-opt/setup.sh
+```
+
+### Manual installation (not recommended)
+
+ROOT can be installed on the local machine on different platforms. Installation instructions are available at https://root.cern/install
+
