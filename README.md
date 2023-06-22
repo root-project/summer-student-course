@@ -30,7 +30,7 @@ ROOT is available on any lxplus instance at CERN. Please make sure you can estab
 Different ROOT versions may be sourced via [LCG releases](https://lcgdocs.web.cern.ch/lcgdocs/lcgreleases/introduction/#setup), for example:
 
 ```
-source /cvmfs/sft.cern.ch/lcg/views/LCG_101/x86_64-centos7-gcc11-opt/setup.sh
+source /cvmfs/sft.cern.ch/lcg/views/LCG_103/x86_64-centos7-gcc12-opt/setup.sh
 ```
 
 ### Manual installation (not recommended)
