@@ -16,7 +16,7 @@ Participants of the ROOT Summer Student course at CERN may use a ROOT installati
 
 [![SWAN](https://swan.web.cern.ch/sites/swan.web.cern.ch/files/pictures/open_in_swan.svg)](https://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/root-project/summer-student-course.git)
 
-[SWAN](https://swan.cern.ch) (Service for Web-based ANalysis) is a CERN service offering a web-based platform for interactive computations and workflows. Its software stack is based on LCG releases too, so it also includes ROOT.
+[SWAN](https://swan.cern.ch) (Service for Web-based ANalysis) is a CERN service offering a web-based platform for interactive computations and workflows. It provides access to user storage and a complete software stack, including ROOT.
 
 In order to be able to connect and use the SWAN service during the course, participants need to make sure that:
 * They have a CERN account that is associated to a computing group. They can check if they belong to a computing group at https://account.cern.ch/account/CERNAccount/AccountStatus.aspx. If a participant does not belong to any computing group, she can subscribe to the default computing group following these instructions: https://resources.web.cern.ch/resources/Help/?kbid=067030
