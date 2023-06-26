@@ -18,7 +18,7 @@ int main()
    auto df_2mu = df.Filter([](unsigned int nMuon) { return nMuon == 2; }, {"nMuon"});
 
    // Select events with two muons of opposite charge
-   auto df_os = df_2mu.Filter([](const ROOT::VecOps::RVec<int> &muonCharge) { return muonCharge[0] != muonCharge[1]; },
+   auto df_os = df_2mu.Filter([](const ROOT::RVecI &muonCharge) { return muonCharge[0] != muonCharge[1]; },
                               {"Muon_charge"});
 
    // Compute invariant mass of the dimuon system
