@@ -1,6 +1,10 @@
 # Python Interface
 Welcome to the exercises of the **Python Interface** learning module!
 
+Open the [notebook](root-python-cpp.ipynb) in order to learn how to use ROOT from Python. 
+
+For later, see the below examples of Python scripts in which you can create histograms and graphs.
+
 ## Histograms
 
 In order to complete this exercise about ROOT histograms in PyROOT, please follow these steps:
@@ -15,7 +19,7 @@ You can find the solution [here](HistoPol1.py).
 
 ## Graphs
 
-In order to complete this exercise about ROOT histograms in PyROOT, please follow these steps:
+In order to complete this exercise about ROOT graphs in PyROOT, please follow these steps:
 - Create a new Python module.
 - In the module, create a graph (*TGraph*).
 - Set its title to *My graph*, its X axis title to *myX* and Y axis title to *myY*.
