@@ -1,5 +1,5 @@
 """
-Adaptation of the tutorial at https://root.cern/doc/master/df102__NanoAODDimuonAnalysis_8py.html
+Python solution for the 03_dimuon exercise using RDataFrame with JIT compiled C++ functions.
 """
 import ROOT
 
@@ -34,4 +34,4 @@ h.GetXaxis().SetTitleSize(0.04)
 h.GetYaxis().SetTitleSize(0.04)
 h.Draw()
 
-c.SaveAs("dimuon_spectrum.png")
+c.SaveAs("03_dimuon.png")

@@ -1,5 +1,5 @@
 /*
-Adaptation of the tutorial at https://root.cern/doc/master/df102__NanoAODDimuonAnalysis_8py.html
+C++ solution for the 03_dimuon exercise, using fully-compiled RDataFrame execution.
 */
 #include <ROOT/RDataFrame.hxx>
 #include <ROOT/RVec.hxx>
@@ -42,5 +42,5 @@ int main()
    hist->GetYaxis()->SetTitleSize(0.04);
    hist->Draw();
 
-   c.SaveAs("dimuon_spectrum.png");
+   c.SaveAs("03_dimuon.png");
 }
