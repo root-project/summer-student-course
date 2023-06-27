@@ -15,9 +15,9 @@ Fill in the following [notebook](FittingExample.ipynb). This notebook shows how 
 
 ### Example of fitting an histogram with a Gaussian function
 
-The [notebook](GausFit.ipynb) notebook shows how to fit an histogram using ROOT with a simple function such as a Gaussian. We show how to use the default chi-square method and the binned likelihood method for fitting histograms. We also show how to plot the fit residual using the TRatioPlot and to compute the chi2 for a goodness of fit test.
+The [notebook](GausFit.ipynb) shows how to fit an histogram using ROOT with a simple function such as a Gaussian. We show how to use the default chi-square method and the binned likelihood method for fitting histograms. We also show how to plot the fit residual using the TRatioPlot and to compute the chi2 for a goodness of fit test.
 
-## Additional examples
+### Additional examples
 
 We provide two extra examples for those of you who want to train even more or would like to come back to fitting in the future:
 - [GausFit_2](GausFit_2.ipynb)

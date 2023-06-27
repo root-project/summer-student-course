@@ -24,7 +24,7 @@ Create a macro which builds and draws a histogram with the following features:
   [TH1::FillRandom](https://root.cern.ch/doc/master/classTH1.html#random-numbers)
 - Its line width is thicker than the default one.
 
-You can find the solution as C++ macro [SimpleHistogram.C](SimpleHistogram.C) and notebook [notebook](SimpleHistogram.ipynb).
+You can find the solution as C++ macro [SimpleHistogram.C](SimpleHistogram.C) and [notebook](SimpleHistogram.ipynb).
 
 ### Build a graph
 Create a macro which builds and draws a graph with the following features:
@@ -44,4 +44,4 @@ Create a macro that follows these steps:
 - Change the line color of the second function.
 - Draw the second function in the same canvas as the first one.
 
-You can find the solution as C++ macro [SimpleFunction.C](SimpleFunction.C) and as notebook [notebook](SimpleFunction.ipynb).
+You can find the solution as C++ macro [SimpleFunction.C](SimpleFunction.C) and as [notebook](SimpleFunction.ipynb).
