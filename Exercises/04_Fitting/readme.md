@@ -19,7 +19,7 @@ The [notebook](GausFit.ipynb) shows how to fit an histogram using ROOT with a si
 
 ### Additional examples
 
-We provide two extra examples for those of you who want to train even more or would like to come back to fitting in the future:
+We provide two extra examples for those of you who want to train even more or would like to come back to the fitting module exercises in the future:
 - [GausFit_2](GausFit_2.ipynb)
 - [CentralLimittheorem](CentralLimitTheorem.ipynb)
 - [HiggsBinFit](HiggsBinFit.ipynb) - which shows how we really work with the data, here looking for the Higgs signal events. 
@@ -27,7 +27,7 @@ We provide two extra examples for those of you who want to train even more or wo
 ## Macros
 
 ### Your First fit with ROOT
-The macro **firstFit.C** is only half-way complete. In the code a fit of a histogram is performed
+The macro [firstFit.C](firstFit.C) is only half-way complete. In the code a fit of a histogram is performed
 and the parameters of the fitted model are inspected.
 Try to complete the code putting to a good use what you learned during the lectures.
 The solution is available in the [firstFit_Solution.C](firstFit_Solution.C) macro.
