@@ -4,6 +4,7 @@
 *.pdf
 *.png
 *.root
+!example_file.root
 
 # Python
 __pycache__
