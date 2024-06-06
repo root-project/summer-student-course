@@ -7,7 +7,7 @@ Python.
 
 ## Slides of the Course
 
-You can find the slides of the course [here](https://docs.google.com/presentation/d/1XUpgJ1IRNO-nIF7M9TErrMcyisLqhhZLB0L-M0AkwUo/edit?usp=sharing).
+You can find the slides of the course [here](https://docs.google.com/presentation/d/1AdyF2uaYVw7Bc8oazC75NkWz6agl4gHnKCVRd4oth4k/edit?usp=sharing).
 
 ## Using ROOT
 
